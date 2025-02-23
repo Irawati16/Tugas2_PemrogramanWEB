@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.navbar {
+    background-color: rgb(52, 52, 241);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 3);
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+}
+
+.polindra {
+    font-weight: bold;
+    color: white;
+    margin: 25px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 17px;
+    display: flex;
+    margin-left: 30%;
+    padding: 20px;
+    gap: 50px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* judul */
+.judul {
+    text-align: center;
+    margin: 30px;
+}
+
+/* beranda */
+.beranda {
+    margin: 35px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 95%;
+    height: 400px;
+}
+
+/* artikel */
+.artikel {
+    margin: 35px;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* program studi */
+.programstudi {
+    justify-items: center;
+    margin-bottom: 40px;
+    margin: 35px;
+}
+
+.programstudi1 {
+    margin: 50px;
+    margin-left: 20px;
+}
+
+/* gambar */
+.gambar {
+    margin: 30px;
+    text-align: center;
+}
+
+.j4 {
+    margin: 30px;
+    width: 50%;
+    height: 500;
+}
+
+.j3 {
+    margin: 10px;
+    width: 50%;
+    height: 500;
+}
